@@ -1,1 +1,101 @@
 # ViT-Orchids-Classification
+
+
+### [Competition Link](https://tbrain.trendmicro.com.tw/Competitions/Details/20)
+
+
+## Setup
+```
+# conda env.
+conda create -n ViT python==3.9 -y
+conda activate ViT
+
+# clone repository
+git clone https://github.com/TW-yuhsi/ViT-Orchids-Classification.git
+cd ViT-Orchids-Classification-main/
+pip install -r requirements.txt
+
+# apex
+git clone https://github.com/NVIDIA/apex
+cd apex/
+pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./    # if error occur, run the following command
+python setup.py install
+
+# pretrained weights
+cd ViT-Orchids-Classification-main/
+mkdir checkpoint
+cd checkpoint
+wget https://storage.googleapis.com/vit_models/imagenet21k+imagenet2012/ViT-B_16.npz
+```
+
+
+
+
+## Folder Structure
+```
+├── data/
+│   ├── fold1/
+│   │   ├── test/
+│   │   │   ├── 0/ 1/ 2/ ...
+│   │   ├── train/
+│   │   │   ├── 0/ 1/ 2/ ...
+│   │   ├── val/
+│   │   │   ├── 0/ 1/ 2/ ...
+├── ViT-Orchids-Classification-main/
+│   ├── apex/
+│   ├── checkpoint/
+│   │   ├── ViT-B_16.npz
+│   ├── models/
+│   ├── utils/
+│   ├── requirements.txt
+│   ├── test.py
+│   ├── train.py
+```
+
+
+
+
+## Train
+```
+python train.py --name <name of this run> \
+                --dataset <task> \
+                --foldn <fold n> \
+                --model_type <model type> \
+                --pretrained_dir <pretrained> \
+                --img_size <image size> \
+                --train_batch_size <batch size> \
+                --optim <optimizer> \
+                --learning_rate <learning rate> \ 
+                --weight_decay <weight decay> \
+                --num_steps <num steps> \
+                --use_imagenet_mean_std <mean and std in imagenet> \
+                --rot_degree <rotate degree> \
+                --fliplr <prob. flip> \
+                --noise <prob. gaussian noise> \
+                --loss_fct <loss functoin> \
+                --fp16 \
+                --fp16_opt_level O2
+```
+#### example
+```
+python train.py --name orchid --dataset orchid --foldn 1 --train_batch_size 4 --model_type ViT-B_16 --pretrained_dir checkpoint/ViT-B_16.npz --img_size 480 --loss_fct CE --optim SGD --learning_rate 3e-2 --num_steps 40000 --fp16 --fp16_opt_level O2
+```
+
+
+
+
+## Test
+```
+python test.py --model_type ViT-B_16 \
+               --checkpoint output/orchid_ViT-B_16_checkpoint.bin \
+               --img_size 384 \
+               --test_dir ../data \
+               --foldn 1 \
+               --dataset test \
+               --use_imagenet_mean_std \
+               --use_test_aug
+```
+#### example
+```
+python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpoint.bin --img_size 480 --foldn 1 --dataset test --use_imagenet_mean_std --use_test_aug
+```
