@@ -100,3 +100,31 @@ python test.py --model_type ViT-B_16 \
 ```
 python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpoint.bin --img_size 480 --foldn 1 --dataset test --use_imagenet_mean_std --use_test_aug
 ```
+
+
+## GitHub Acknowledgement
+### Member
+- [Jia-Wei Liao](https://github.com/Jia-Wei-Liao/Orchid_Classification)
+
+### Others
+- Augmentation
+  - AutoAugment: https://github.com/DeepVoltaire/AutoAugment
+  - TTAch: https://github.com/qubvel/ttach
+- Optimizer
+  - Ranger: https://github.com/lessw2020/Ranger-Deep-Learning-Optimizer
+  - Ranger21: https://github.com/lessw2020/Ranger21 
+  - SAM: https://github.com/davda54/sam
+- Loss function
+  - MCCE: https://github.com/Kurumi233/Mutual-Channel-Loss
+  - FLSD: https://github.com/torrvision/focal_calibration
+
+
+## Citation
+```
+@article{
+    title  = {Crop classification},
+    author = {Yu-Hsi Chen, Jia-Wei Liao, Kuok-Tong Ng},
+    url    = {https://github.com/TW-yuhsi/ViT-Orchids-Classification},
+    year   = {2022}
+}
+```
