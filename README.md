@@ -1,8 +1,100 @@
-# Supervised Learning for Few-Shot Orchid types Classification with Prior Guided Feature
+# 尋找花中君子 - 蘭花種類辨識及分類競賽
 
-## 尋找花中君子 - 蘭花種類辨識及分類競賽
+## Supervised Learning for Few-Shot Orchid types Classification with Prior Guided Feature
 
 
+
+## Setup
+
+
+<details>
+
+<summary>Conda environment</summary>
+  
+```bash
+conda create -n ViT python==3.9 -y
+conda activate ViT
+```
+
+</details>
+
+
+
+
+<details>
+
+<summary>Clone Repository</summary>
+  
+```bash
+git clone https://github.com/TW-yuhsi/ViT-Orchidaceae-Classification.git
+pip install -r requirements.txt
+```
+
+</details>
+
+
+
+
+<details>
+
+<summary>A PyTorch Extension (Apex)</summary>
+  
+```bash
+git clone https://github.com/NVIDIA/apex
+cd apex/
+python setup.py install
+```
+
+</details>
+
+
+
+
+<details>
+
+<summary>Get pretrained weight</summary>
+  
+```bash
+cd ViT-Orchidaceae-Classification-main/
+mkdir checkpoint
+cd checkpoint/
+wget https://storage.googleapis.com/vit_models/imagenet21k/ViT-B_16.npz
+wget https://storage.googleapis.com/vit_models/imagenet21k+imagenet2012/ViT-B_16.npz
+```
+  
+## Usage
+* [Available models](https://console.cloud.google.com/storage/vit_models/): ViT-B_16(**85.8M**), R50+ViT-B_16(**97.96M**), ViT-B_32(**87.5M**), ViT-L_16(**303.4M**), ViT-L_32(**305.5M**), ViT-H_14(**630.8M**)
+  * imagenet21k pre-train models
+    * ViT-B_16, ViT-B_32, ViT-L_16, ViT-L_32, ViT-H_14
+  * imagenet21k pre-train + imagenet2012 fine-tuned models
+    * ViT-B_16-224, ViT-B_16, ViT-B_32, ViT-L_16-224, ViT-L_16, ViT-L_32
+  * Hybrid Model([Resnet50](https://github.com/google-research/big_transfer) + Transformer)
+    * R50-ViT-B_16
+```
+### imagenet21k pre-train
+wget https://storage.googleapis.com/vit_models/imagenet21k/{MODEL_NAME}.npz
+
+### imagenet21k pre-train + imagenet2012 fine-tuning
+wget https://storage.googleapis.com/vit_models/imagenet21k+imagenet2012/{MODEL_NAME}.npz
+
+```
+
+</details>
+
+
+
+<details>
+
+<summary>Useful commands</summary>
+  
+```bash=
+unzip \*.zip    # Unzip all ZIP files
+ls -l | grep "^-" | wc -l    # Check the number of files
+ls -lR | grep "^-" | wc -l
+for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done
+```
+
+</details>
 
 
 ## Setup
