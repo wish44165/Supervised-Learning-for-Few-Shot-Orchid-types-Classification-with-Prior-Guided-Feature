@@ -26,7 +26,7 @@ conda activate ViT
 <summary>Clone Repository</summary>
   
 ```bash
-git clone https://github.com/TW-yuhsi/ViT-Orchidaceae-Classification.git
+git clone https://github.com/TW-yuhsi/ViT-Orchids-Classification
 pip install -r requirements.txt
 ```
 
@@ -42,6 +42,7 @@ pip install -r requirements.txt
 ```bash
 git clone https://github.com/NVIDIA/apex
 cd apex/
+pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./    # if error occur, run the following command
 python setup.py install
 ```
 
@@ -55,7 +56,7 @@ python setup.py install
 <summary>Get pretrained weight</summary>
   
 ```bash
-cd ViT-Orchidaceae-Classification-main/
+cd ViT-Orchids-Classification-main/
 mkdir checkpoint
 cd checkpoint/
 wget https://storage.googleapis.com/vit_models/imagenet21k/ViT-B_16.npz
@@ -97,29 +98,7 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done
 </details>
 
 
-## Setup
-```
-# conda env.
-conda create -n ViT python==3.9 -y
-conda activate ViT
 
-# clone repository
-git clone https://github.com/TW-yuhsi/ViT-Orchids-Classification.git
-cd ViT-Orchids-Classification-main/
-pip install -r requirements.txt
-
-# apex
-git clone https://github.com/NVIDIA/apex
-cd apex/
-pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./    # if error occur, run the following command
-python setup.py install
-
-# pretrained weights
-cd ViT-Orchids-Classification-main/
-mkdir checkpoint
-cd checkpoint
-wget https://storage.googleapis.com/vit_models/imagenet21k+imagenet2012/ViT-B_16.npz
-```
 
 
 
