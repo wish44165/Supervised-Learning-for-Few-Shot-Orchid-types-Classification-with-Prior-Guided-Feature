@@ -1,5 +1,6 @@
-# ViT-Orchids-Classification
+# Supervised Learning for Few-Shot Orchid types Classification with Prior Guided Feature
 
+## 尋找花中君子 - 蘭花種類辨識及分類競賽
 
 
 
