@@ -1,8 +1,7 @@
 # ViT-Orchids-Classification
 
 
-### [Competition Link](https://tbrain.trendmicro.com.tw/Competitions/Details/20)
-### [Google Drive](https://drive.google.com/drive/folders/1x_rb6bu0riJuouAtK-xjFGDkCP7ZbhbL?usp=sharing)
+
 
 
 ## Setup
@@ -100,6 +99,12 @@ python test.py --model_type ViT-B_16 \
 ```
 python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpoint.bin --img_size 480 --foldn 1 --dataset test --use_imagenet_mean_std --use_test_aug
 ```
+
+
+## Related URLs
+- [Competition Link](https://tbrain.trendmicro.com.tw/Competitions/Details/20)
+- [Google Drive](https://drive.google.com/drive/folders/1x_rb6bu0riJuouAtK-xjFGDkCP7ZbhbL?usp=sharing)
+
 
 
 ## GitHub Acknowledgement
