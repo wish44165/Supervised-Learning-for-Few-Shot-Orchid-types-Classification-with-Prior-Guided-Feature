@@ -248,8 +248,9 @@ python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpo
     └── statistics/
         └── trainLoss.py    # plot training loss curve
 ├── tables/
-    └── Baseline.csv/
-    └── ViT_Linformer.csv/
+    └── Baseline.csv/    # experimental results for baseline models
+    └── ViT.csv/    # experimental results for whole ViT trials
+    └── ViT_Linformer.csv/    # experimental results for ViT_Linformer
 ```
 </details>
 
