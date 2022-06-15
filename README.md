@@ -218,15 +218,14 @@ python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpo
         └── ResNet101/
     └── Swin/
     └── ViT/
+        └── R50+ViT-B_16/    # 5 weights
         └── ViT_Linformer/
             └── params1/
             └── params2/
-        └── ViT-B_16/
-        └── ViT-B_32/
-        └── ViT-L_16/
-        └── ViT-L_32/
-        └── ViT-H_14/
-        └── R50+ViT-B_16/
+        └── ViT-B_16/    # 59 weights
+        └── ViT-B_32/    # 3 weights
+        └── ViT-L_16/    # 1 weights
+        └── ViT-L_32/    # 3 weights
 ├── Colab Notebooks/
     └── Images/
     └── Ranger-Deep-Learning-Optimizer/
