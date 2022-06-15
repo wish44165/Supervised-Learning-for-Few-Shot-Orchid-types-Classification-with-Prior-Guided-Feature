@@ -97,21 +97,6 @@ wget https://storage.googleapis.com/vit_models/imagenet21k+imagenet2012/{MODEL_N
 
 
 
-<details>
-
-<summary>Useful commands</summary>
-  
-```bash=
-unzip \*.zip    # Unzip all ZIP files
-ls -l | grep "^-" | wc -l    # Check the number of files
-ls -lR | grep "^-" | wc -l
-for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done
-```
-  
-</details>
-
-
-
 
 <details>
 
@@ -170,6 +155,21 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done
 
 
 ## Commands
+
+<details>
+
+<summary>Useful commands in Terminal</summary>
+  
+```bash=
+unzip \*.zip    # Unzip all ZIP files
+ls -l | grep "^-" | wc -l    # Check the number of files
+ls -lR | grep "^-" | wc -l
+for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under terminal
+```
+  
+</details>
+
+
 
 <details>
  
