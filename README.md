@@ -86,10 +86,10 @@ wget https://storage.googleapis.com/vit_models/imagenet21k+imagenet2012/ViT-B_16
   * Hybrid Model([Resnet50](https://github.com/google-research/big_transfer) + Transformer)
     * R50-ViT-B_16
 ```
-### imagenet21k pre-train
+#### imagenet21k pre-train ####
 wget https://storage.googleapis.com/vit_models/imagenet21k/{MODEL_NAME}.npz
 
-### imagenet21k pre-train + imagenet2012 fine-tuning
+#### imagenet21k pre-train + imagenet2012 fine-tuning ####
 wget https://storage.googleapis.com/vit_models/imagenet21k+imagenet2012/{MODEL_NAME}.npz
 ```
 
@@ -112,10 +112,10 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done
 
 
 
+
 <details>
 
 <summary>Folder Structure on PC</summary>
-
 
 ```
 ├── data/
@@ -165,6 +165,7 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done
     └── submit.py/
 ```
 </details>
+
 
 
 
