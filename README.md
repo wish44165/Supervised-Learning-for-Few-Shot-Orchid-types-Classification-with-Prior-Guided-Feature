@@ -268,7 +268,9 @@ python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpo
 <details>
 
 <summary>Member</summary>  
+  
 - [Jia-Wei Liao](https://github.com/Jia-Wei-Liao/Orchid_Classification)
+  
 </details>
   
 
