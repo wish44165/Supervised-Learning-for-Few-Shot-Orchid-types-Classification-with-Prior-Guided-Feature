@@ -265,16 +265,25 @@ python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpo
 
 
 ## GitHub Acknowledgement
-### Member
-- [Jia-Wei Liao](https://github.com/Jia-Wei-Liao/Orchid_Classification)
+<details>
 
-### Others
+<summary>Member</summary>  
+- [Jia-Wei Liao](https://github.com/Jia-Wei-Liao/Orchid_Classification)
+<\details>
+  
+
+  
+
+<details>
+
+<summary>Others</summary>  
 - Augmentation
   - [AutoAugment](https://github.com/DeepVoltaire/AutoAugment), [TTAch](https://github.com/qubvel/ttach)
 - Optimizer
   - [Ranger](https://github.com/lessw2020/Ranger-Deep-Learning-Optimizer), [Ranger21](https://github.com/lessw2020/Ranger21), [SAM](https://github.com/davda54/sam)
 - Loss function
   - [MCCE](https://github.com/Kurumi233/Mutual-Channel-Loss), [FLSD](https://github.com/torrvision/focal_calibration)
+<\details>
 
 
 ## Reference
