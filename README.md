@@ -141,14 +141,14 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done
         └── val/
             └── 0/ 1/ 2/ ...
 ├── ViT-Orchids-Classification-main/
-│   ├── apex/
-│   ├── checkpoint/
-│   │   ├── ViT-B_16.npz
-│   ├── models/
-│   ├── utils/
-│   ├── requirements.txt
-│   ├── test.py
-│   ├── train.py
+    └── apex/
+    └── checkpoint/
+    └── models/
+    └── utils/
+    └── requirements.txt
+    └── test.py/
+    └── train.py/
+    └── submit.py/
 ```
 </details>
 
@@ -203,6 +203,60 @@ python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpo
 ## Related URLs
 - [Competition Link](https://tbrain.trendmicro.com.tw/Competitions/Details/20)
 - [Google Drive](https://drive.google.com/drive/folders/1x_rb6bu0riJuouAtK-xjFGDkCP7ZbhbL?usp=sharing)
+
+<details>
+
+<summary>Folder Structure on Google Drive</summary>
+
+
+```
+├── data/
+    └── baseline data/
+        └── test/
+            └── 0/ 1/ 2/ ...
+        └── train/
+            └── 0/ 1/ 2/ ...
+        └── val/
+            └── 0/ 1/ 2/ ...
+    └── fold1/
+        └── test/
+            └── 0/ 1/ 2/ ...
+        └── train/
+            └── 0/ 1/ 2/ ...
+        └── val/
+            └── 0/ 1/ 2/ ...
+    └── fold2/
+        └── test/
+            └── 0/ 1/ 2/ ...
+        └── train/
+            └── 0/ 1/ 2/ ...
+        └── val/
+            └── 0/ 1/ 2/ ...
+    └── fold3/
+        └── test/
+            └── 0/ 1/ 2/ ...
+        └── train/
+            └── 0/ 1/ 2/ ...
+        └── val/
+            └── 0/ 1/ 2/ ...
+    └── fold4/
+        └── test/
+            └── 0/ 1/ 2/ ...
+        └── train/
+            └── 0/ 1/ 2/ ...
+        └── val/
+            └── 0/ 1/ 2/ ...
+├── ViT-Orchids-Classification-main/
+    └── apex/
+    └── checkpoint/
+    └── models/
+    └── utils/
+    └── requirements.txt
+    └── test.py/
+    └── train.py/
+    └── submit.py/
+```
+</details>
 
 
 
