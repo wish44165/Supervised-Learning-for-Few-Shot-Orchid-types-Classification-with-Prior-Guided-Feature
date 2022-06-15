@@ -212,6 +212,10 @@ python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpo
 ```
 尋找花中君子 - 蘭花種類辨識及分類競賽 [TBrain]/
 ├── checkpoints/
+    └── ResNet/
+        └── ResNeSt269/
+        └── ResNet50/
+        └── ResNet101/
     └── Swin/
     └── ViT/
         └── ViT_Linformer/
