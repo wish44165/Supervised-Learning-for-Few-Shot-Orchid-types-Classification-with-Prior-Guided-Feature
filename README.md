@@ -215,6 +215,16 @@ python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpo
     └── Swin/
     └── ViT/
 ├── Colab Notebooks/
+    └── Attention Map.ipynb
+    └── ResNet50_3.ipynb
+    └── ResNet101_2_Ranger.ipynb
+    └── ResNet101_3.ipynb
+    └── ResNet101_Ranger_2.ipynb
+    └── SwinT_2.ipynb
+    └── SwinT.ipynb
+    └── ViT_distilled_params1.ipynb
+    └── ViT_Linformer_params1.ipynb
+    └── ViT_Linformer_params2.ipynb
 ├── datasets/
     └── baseline data/
         └── test/
