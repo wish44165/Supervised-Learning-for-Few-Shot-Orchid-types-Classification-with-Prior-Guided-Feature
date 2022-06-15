@@ -154,7 +154,7 @@ wget https://storage.googleapis.com/vit_models/imagenet21k+imagenet2012/{MODEL_N
 
 
 
-## Commands
+## Termnial Commands
 
 <details>
 
