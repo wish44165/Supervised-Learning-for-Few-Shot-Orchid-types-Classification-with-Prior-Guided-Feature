@@ -363,7 +363,7 @@ python test.py --model_type ViT-B_16 \
 
 <details>
 
-<summary>Others</summary>  
+<summary>Useful Techniques</summary>  
 
 - Augmentation
   - [AutoAugment](https://github.com/DeepVoltaire/AutoAugment), [TTAch](https://github.com/qubvel/ttach)
