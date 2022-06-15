@@ -214,7 +214,12 @@ python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpo
 ├── checkpoints/
     └── Swin/
     └── ViT/
+        └── ViT_Linformer/
+            └── params1/
+            └── params2/
 ├── Colab Notebooks/
+    └── Images/
+    └── Ranger-Deep-Learning-Optimizer/
     └── Attention Map.ipynb
     └── ResNet50_3.ipynb
     └── ResNet101_2_Ranger.ipynb
@@ -227,41 +232,11 @@ python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpo
     └── ViT_Linformer_params2.ipynb
 ├── datasets/
     └── baseline data/
-        └── test/
-            └── 0/ 1/ 2/ ...
-        └── train/
-            └── 0/ 1/ 2/ ...
-        └── val/
-            └── 0/ 1/ 2/ ...
     └── 4-Fold/
         └── fold1/
-            └── test/
-                └── 0/ 1/ 2/ ...
-            └── train/
-                └── 0/ 1/ 2/ ...
-            └── val/
-                └── 0/ 1/ 2/ ...
         └── fold2/
-            └── test/
-                └── 0/ 1/ 2/ ...
-            └── train/
-                └── 0/ 1/ 2/ ...
-            └── val/
-                └── 0/ 1/ 2/ ...
         └── fold3/
-            └── test/
-                └── 0/ 1/ 2/ ...
-            └── train/
-                └── 0/ 1/ 2/ ...
-            └── val/
-                └── 0/ 1/ 2/ ...
         └── fold4/
-            └── test/
-                └── 0/ 1/ 2/ ...
-            └── train/
-                └── 0/ 1/ 2/ ...
-            └── val/
-                └── 0/ 1/ 2/ ...
 ├── figures/
 ├── /
 ├── src/
@@ -274,6 +249,7 @@ python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpo
         └── trainLoss.py    # plot training loss curve
 ├── tables/
     └── Baseline.csv/
+    └── ViT_Linformer.csv/
 ```
 </details>
 
