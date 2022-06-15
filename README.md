@@ -325,6 +325,12 @@ python test.py --model_type ViT-B_16 \
         └── split.py    # split the training data
     └── statistics/
         └── trainLoss.py    # plot training loss curve
+├── Submitted Files/
+    └── submit_1.csv    # public: 0.890142
+    └── submit_2.csv    # public: 0.901620
+    └── submit_3.csv    # public: 0.904925
+    └── submit_4.csv    # public: 0.911492, private: 809624582
+    └── submit_5.csv    # public: 0.909891
 ├── tables/
     └── Baseline.csv/    # experimental results for baseline models
     └── ViT.csv/    # experimental results for whole ViT trials
