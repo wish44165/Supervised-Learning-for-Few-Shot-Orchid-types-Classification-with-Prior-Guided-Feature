@@ -265,7 +265,10 @@ python test.py --model_type ViT-B_16 \
 </details>
   
   
-## Reproduce the Best Result
+## Reproduce the Best Result (public: 0.911492, private: 809624582)
+### Google Colaboratory Version
+
+### PC Version
 
   
   
