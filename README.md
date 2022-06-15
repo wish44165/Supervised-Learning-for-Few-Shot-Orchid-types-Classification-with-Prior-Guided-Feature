@@ -4,7 +4,21 @@
 
 
 
-## Setup
+
+## Environment Setup
+
+
+
+<details>
+
+<summary>Hardware information</summary>
+  
+- CPU: i7-11700F / GPU: GeForce GTX 1660 SUPER™ VENTUS XS OC (6G)
+- CPU: i7-10700K / GPU: NVIDIA GeForce RTX 2070 SUPER (8G)
+- TWCC GPU: NVIDIA V100 (32G)
+
+</details>
+
 
 
 <details>
