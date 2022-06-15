@@ -211,7 +211,7 @@ python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpo
 
 ```
 尋找花中君子 - 蘭花種類辨識及分類競賽 [TBrain]/
-├── checkpoints/  
+├── checkpoints/
     └── Swin/
     └── ViT/
 ├── datasets/
@@ -251,6 +251,14 @@ python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpo
                 └── 0/ 1/ 2/ ...
             └── val/
                 └── 0/ 1/ 2/ ...
+├── src/
+    └── getInfo/
+        └── readLabel.py    # read label.csv file
+        └── readImage.py    # get the shape of image
+    └── preprocessing/
+        └── split.py    # split the training data
+    └── statistics/
+        └── trainLoss.py    # plot training loss curve
 ```
 </details>
 
