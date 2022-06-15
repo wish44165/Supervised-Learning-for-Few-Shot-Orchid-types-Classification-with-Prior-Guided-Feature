@@ -186,7 +186,7 @@ python train.py --name <name of this run> \
   
 <details>
   
-<summary>demo</summary>
+<summary>Train demo</summary>
 
 ```
 python train.py --name orchid \
@@ -211,23 +211,46 @@ python train.py --name orchid \
   
 
 
+  
+<details>
 
-## Test
+<summary>Inference</summary>
+
+```
+python test.py --model_type <model type> \
+               --checkpoint <trained> \
+               --img_size <image size> \
+               --test_dir <test folder> \
+               --foldn <fold n> \
+               --dataset <task> \
+               --use_imagenet_mean_std \
+               --use_test_aug
+```
+
+</details>
+  
+  
+  
+  
+<details>
+  
+<summary>Inference demo</summary>
+
 ```
 python test.py --model_type ViT-B_16 \
                --checkpoint output/orchid_ViT-B_16_checkpoint.bin \
-               --img_size 384 \
+               --img_size 480 \
                --test_dir ../data \
                --foldn 1 \
                --dataset test \
                --use_imagenet_mean_std \
                --use_test_aug
 ```
-#### example
-```
-python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpoint.bin --img_size 480 --foldn 1 --dataset test --use_imagenet_mean_std --use_test_aug
-```
-
+  
+</details>
+  
+  
+  
 
 ## Related URLs
 - [Competition Link](https://tbrain.trendmicro.com.tw/Competitions/Details/20)
