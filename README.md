@@ -319,6 +319,8 @@ python test.py --model_type ViT-B_16 \
         └── fold2/
         └── fold3/
         └── fold4/
+    └── orchid_private_set/
+    └── orchid_public_set/
     └── training/
 ├── figures/
 ├── src/
