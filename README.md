@@ -250,6 +250,10 @@ python test.py --model_type ViT-B_16 \
 </details>
   
   
+## Reproduce the result
+
+  
+  
   
 
 ## Related URLs
