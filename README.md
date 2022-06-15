@@ -319,6 +319,7 @@ python test.py --model_type ViT-B_16 \
         └── fold2/
         └── fold3/
         └── fold4/
+    └── training/
 ├── figures/
 ├── src/
     └── getInfo/
