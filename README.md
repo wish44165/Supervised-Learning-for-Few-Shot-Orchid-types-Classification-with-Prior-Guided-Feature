@@ -214,6 +214,7 @@ python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpo
 ├── checkpoints/
     └── Swin/
     └── ViT/
+├── Colab Notebooks/
 ├── datasets/
     └── baseline data/
         └── test/
@@ -251,6 +252,8 @@ python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpo
                 └── 0/ 1/ 2/ ...
             └── val/
                 └── 0/ 1/ 2/ ...
+├── figures/
+├── /
 ├── src/
     └── getInfo/
         └── readLabel.py    # read label.csv file
@@ -259,6 +262,8 @@ python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpo
         └── split.py    # split the training data
     └── statistics/
         └── trainLoss.py    # plot training loss curve
+├── tables/
+    └── Baseline.csv/
 ```
 </details>
 
