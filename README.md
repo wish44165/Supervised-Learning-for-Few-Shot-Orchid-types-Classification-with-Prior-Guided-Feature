@@ -154,7 +154,12 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done
 
 
 
-## Train
+## Commands
+
+<details>
+ 
+  <summary>Train</summary>
+
 ```
 python train.py --name <name of this run> \
                 --dataset <task> \
@@ -175,11 +180,35 @@ python train.py --name <name of this run> \
                 --fp16 \
                 --fp16_opt_level O2
 ```
-#### example
+
+</details>
+
+  
+<details>
+  
+<summary>demo</summary>
+
 ```
-python train.py --name orchid --dataset orchid --foldn 1 --train_batch_size 4 --model_type ViT-B_16 --pretrained_dir checkpoint/ViT-B_16.npz --img_size 480 --loss_fct CE --optim SGD --learning_rate 3e-2 --num_steps 40000 --fp16 --fp16_opt_level O2
+python train.py --name orchid \
+                --dataset orchid \
+                --foldn 1 \
+                --model_type ViT-B_16 \
+                --pretrained_dir checkpoint/ViT-B_16.npz \
+                --img_size 480 \
+                --train_batch_size 4 \
+                --optim SGD \
+                --learning_rate 3e-2 \ 
+                --num_steps 20000 \
+                --use_imagenet_mean_std \
+                --rot_degree 10 \
+                --fliplr 0.5 \
+                --loss_fct CE \
+                --fp16 \
+                --fp16_opt_level O2
 ```
 
+</details>
+  
 
 
 
