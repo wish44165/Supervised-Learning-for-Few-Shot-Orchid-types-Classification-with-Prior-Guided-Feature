@@ -142,6 +142,8 @@ wget https://storage.googleapis.com/vit_models/imagenet21k+imagenet2012/{MODEL_N
 ├── ViT-Orchids-Classification-main/
     └── apex/
     └── checkpoint/
+    └── compare.py
+    └── convert.py
     └── models/
     └── utils/
     └── requirements.txt
