@@ -93,25 +93,53 @@ ls -l | grep "^-" | wc -l    # Check the number of files
 ls -lR | grep "^-" | wc -l
 for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done
 ```
-
+  
 </details>
 
 
 
+<details>
+
+<summary>Folder Structure on PC</summary>
 
 
-
-
-## Folder Structure
 ```
 ├── data/
-│   ├── fold1/
-│   │   ├── test/
-│   │   │   ├── 0/ 1/ 2/ ...
-│   │   ├── train/
-│   │   │   ├── 0/ 1/ 2/ ...
-│   │   ├── val/
-│   │   │   ├── 0/ 1/ 2/ ...
+    └── baseline data/
+        └── test/
+            └── 0/ 1/ 2/ ...
+        └── train/
+            └── 0/ 1/ 2/ ...
+        └── val/
+            └── 0/ 1/ 2/ ...
+    └── fold1/
+        └── test/
+            └── 0/ 1/ 2/ ...
+        └── train/
+            └── 0/ 1/ 2/ ...
+        └── val/
+            └── 0/ 1/ 2/ ...
+    └── fold2/
+        └── test/
+            └── 0/ 1/ 2/ ...
+        └── train/
+            └── 0/ 1/ 2/ ...
+        └── val/
+            └── 0/ 1/ 2/ ...
+    └── fold3/
+        └── test/
+            └── 0/ 1/ 2/ ...
+        └── train/
+            └── 0/ 1/ 2/ ...
+        └── val/
+            └── 0/ 1/ 2/ ...
+    └── fold4/
+        └── test/
+            └── 0/ 1/ 2/ ...
+        └── train/
+            └── 0/ 1/ 2/ ...
+        └── val/
+            └── 0/ 1/ 2/ ...
 ├── ViT-Orchids-Classification-main/
 │   ├── apex/
 │   ├── checkpoint/
@@ -122,7 +150,7 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done
 │   ├── test.py
 │   ├── train.py
 ```
-
+</details>
 
 
 
