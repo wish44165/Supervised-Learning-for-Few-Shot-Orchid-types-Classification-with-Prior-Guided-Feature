@@ -269,7 +269,7 @@ python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpo
 
 <summary>Member</summary>  
 - [Jia-Wei Liao](https://github.com/Jia-Wei-Liao/Orchid_Classification)
-<\details>
+</details>
   
 
   
@@ -285,7 +285,7 @@ python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpo
 - Loss function
   - [MCCE](https://github.com/Kurumi233/Mutual-Channel-Loss), [FLSD](https://github.com/torrvision/focal_calibration)
 
-<\details>
+</details>
 
 
 ## Reference
