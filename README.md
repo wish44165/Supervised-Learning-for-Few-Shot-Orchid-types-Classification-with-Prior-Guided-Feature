@@ -247,7 +247,6 @@ python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpo
         └── fold3/
         └── fold4/
 ├── figures/
-├── /
 ├── src/
     └── getInfo/
         └── readLabel.py    # read label.csv file
