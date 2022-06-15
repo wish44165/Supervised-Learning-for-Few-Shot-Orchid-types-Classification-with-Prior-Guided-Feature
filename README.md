@@ -100,7 +100,7 @@ wget https://storage.googleapis.com/vit_models/imagenet21k+imagenet2012/{MODEL_N
 
 <details>
 
-<summary>Folder Structure on PC</summary>
+<summary>Folder Structure on Local Machine</summary>
 
 ```
 ├── data/
