@@ -286,12 +286,14 @@ python test.py --model_type ViT-B_16 --checkpoint output/orchid_ViT-B_16_checkpo
   - [Ranger](https://github.com/lessw2020/Ranger-Deep-Learning-Optimizer), [Ranger21](https://github.com/lessw2020/Ranger21), [SAM](https://github.com/davda54/sam)
 - Loss function
   - [MCCE](https://github.com/Kurumi233/Mutual-Channel-Loss), [FLSD](https://github.com/torrvision/focal_calibration)
+- A PyTorch Extension
+  - [Apex](https://github.com/NVIDIA/apex)
 
 </details>
 
 
 ## Reference
-
+- [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
 
 
 ## Citation
