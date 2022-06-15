@@ -77,7 +77,7 @@ wget https://storage.googleapis.com/vit_models/imagenet21k/ViT-B_16.npz
 wget https://storage.googleapis.com/vit_models/imagenet21k+imagenet2012/ViT-B_16.npz
 ```
   
-## Usage
+### Usage
 * [Available models](https://console.cloud.google.com/storage/vit_models/): ViT-B_16(**85.8M**), R50+ViT-B_16(**97.96M**), ViT-B_32(**87.5M**), ViT-L_16(**303.4M**), ViT-L_32(**305.5M**), ViT-H_14(**630.8M**)
   * imagenet21k pre-train models
     * ViT-B_16, ViT-B_32, ViT-L_16, ViT-L_32, ViT-H_14
