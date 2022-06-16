@@ -441,10 +441,8 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
         └── training/
 ├── figures/
 ├── Reproduce the Best Result/
-    └── test/
-        └── 0/
-        └── 1/
     └── ViT/
+        └── Reproduce.ipynb
 ├── src/
     └── getInfo/
         └── readLabel.py    # read label.csv file
