@@ -330,7 +330,7 @@ Step 1. Setup the Folder Structure as follows
   Now, we are ready to execute `convert.py`.
   
   ```bash
-  python submit.py --model_type ["ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16"] --checkpoint ["output/A1.bin","output/A2.bin","output/ID_4.bin","output/ID_5.bin","output/ID12.bin","output/ID27.bin"] --img_size [480,480,480,480,480,480] --use_imagenet_mean_std [0,0,0,0,1,1]
+  python convert.py
   ```
   
   
