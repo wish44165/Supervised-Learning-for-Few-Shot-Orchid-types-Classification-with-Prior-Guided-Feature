@@ -278,13 +278,19 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
     <td>Private score</td>
   </tr>
   <tr>
-    <td>submit_enEnsemble_convert.csv</td>
-    <td>2022-06-06 04:49:39</td>
-    <td>0.911492</td>
+    <td>submit_convert.csv</td>
+    <td>2022-06-06 04:57:23</td>
+    <td>0.909891</td>
     <td></td>
   </tr>
   <tr>
-    <td>submit_enEnsemble.csv</td>
+    <td>submit_meanEnsemble_convert.csv</td>
+    <td>2022-06-06 04:49:39</td>
+    <td>0.911492</td>
+    <td>0.809624582</td>
+  </tr>
+  <tr>
+    <td>submit_meanEnsemble.csv</td>
     <td>2022-06-06 04:28:35</td>
     <td>0.904925</td>
     <td></td>
@@ -293,12 +299,6 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
     <td>submit_convert_swin_1.csv</td>
     <td>2022-06-06 03:29:10</td>
     <td>0.901620</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>submit_convert.csv</td>
-    <td>2022-06-06 04:57:23</td>
-    <td>0.909891</td>
     <td></td>
   </tr>
   <tr>
