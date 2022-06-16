@@ -2,12 +2,12 @@
 
 ## Supervised Learning for Few-Shot Orchid types Classification with Prior Guided Feature - TEAM_142
 
-### 0. Overview
+\textbf{Overview}
 
 Image classification has been widely used in engineering, agriculture, and medical applications. Nowadays, with the rapid development of deep neural network and the computing power of graphic cards, the performance of image classification has been greatly improved. In particular, pattern recognition plays an important role in image classification. Even though this field looks very mature, there are still some intractable problems, such as lack of labeled data and lack of understanding of species. Here, we followed a pipeline that can find the most suitable process for each task systematically. Using this method, our final scores are 0.911492 and 0.809624582 in public and private datasets, respectively. In addition, our overall ranking is 15th out of 743 teams.
 
 
-### 1. Environment Setup
+## 1. Environment Setup
 
 <details>
 
@@ -268,7 +268,7 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
   
   
 
-### 3. Submitted Results
+## 3. Submitted Results
   
 <table>
   <tr>
@@ -314,7 +314,7 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
   
   
   
-### 4. Reproduce the Best Result (public: 0.911492, private: 0.809624582)
+## 4. Reproduce the Best Result (public: 0.911492, private: 0.809624582)
   
 <details>
   
@@ -389,9 +389,9 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
   
   
 
-### 5. Related URLs
-#### [Competition Link](https://tbrain.trendmicro.com.tw/Competitions/Details/20)
-#### [Google Drive](https://drive.google.com/drive/folders/1x_rb6bu0riJuouAtK-xjFGDkCP7ZbhbL?usp=sharing)
+## 5. Related URLs
+### [Competition Link](https://tbrain.trendmicro.com.tw/Competitions/Details/20)
+### [Google Drive](https://drive.google.com/drive/folders/1x_rb6bu0riJuouAtK-xjFGDkCP7ZbhbL?usp=sharing)
 <details>
 
 <summary>Folder Structure on Google Drive</summary>
@@ -465,7 +465,7 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
 
 
 
-### 6. GitHub Acknowledgement
+## 6. GitHub Acknowledgement
 <details>
 
 <summary>Teammate</summary>  
@@ -493,7 +493,7 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
 </details>
 
 
-### 7. Reference
+## 7. Reference
 - [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
 
 
