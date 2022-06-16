@@ -5,7 +5,7 @@
 
 
 
-## Environment Setup
+## 1. Environment Setup
 
 
 
@@ -156,7 +156,7 @@ wget https://storage.googleapis.com/vit_models/imagenet21k+imagenet2012/{MODEL_N
 
 
 
-## Train and Inference
+## 2. Train and Inference
 
 <details>
  
@@ -266,7 +266,7 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
 </details>
   
   
-## Reproduce the Best Result (public: 0.911492, private: 0.809624582)
+## 3. Reproduce the Best Result (public: 0.911492, private: 0.809624582)
   
 <details>
   
@@ -312,7 +312,7 @@ Step 3. Execute `convert.py`
   
   
 
-## Related URLs
+## 4. Related URLs
 ### [Competition Link](https://tbrain.trendmicro.com.tw/Competitions/Details/20)
 ### [Google Drive](https://drive.google.com/drive/folders/1x_rb6bu0riJuouAtK-xjFGDkCP7ZbhbL?usp=sharing)
 <details>
@@ -387,7 +387,7 @@ Step 3. Execute `convert.py`
 
 
 
-## GitHub Acknowledgement
+## 5. GitHub Acknowledgement
 <details>
 
 <summary>Teammate</summary>  
@@ -415,7 +415,7 @@ Step 3. Execute `convert.py`
 </details>
 
 
-## Reference
+## 6. Reference
 - [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
 
 
