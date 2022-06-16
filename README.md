@@ -264,9 +264,16 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
 ```
   
 </details>
+
   
   
-## 3. Reproduce the Best Result (public: 0.911492, private: 0.809624582)
+
+## 3. Submitted Results
+  
+  
+  
+  
+## 4. Reproduce the Best Result (public: 0.911492, private: 0.809624582)
   
 <details>
   
@@ -328,7 +335,7 @@ Step 1. Setup the Folder Structure as follows
   
   
   
-- Step 4. Submit `submit_meanEnsemble_convert.csv` file
+- Step 5. Submit `submit_meanEnsemble_convert.csv` file
   
   After execute `convert.py`, we can get the file named `submit_meanEnsemble_convert.csv` which has the highest Macro-F$_1$ score.
   
@@ -414,7 +421,7 @@ Step 1. Setup the Folder Structure as follows
 
 
 
-## 5. GitHub Acknowledgement
+## 6. GitHub Acknowledgement
 <details>
 
 <summary>Teammate</summary>  
@@ -442,7 +449,7 @@ Step 1. Setup the Folder Structure as follows
 </details>
 
 
-## 6. Reference
+## 7. Reference
 - [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
 
 
