@@ -270,10 +270,11 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
 ### Google Colaboratory Version
 
 ### Local Machine Version
-
+#### Step 1. Follow the Folder Structure below
 ```
-├── data/
-    └── test/
+├── test/
+    └── 0/    # orchid_public_set, 40285
+    └── 1/    # orchid_private_set, 41425
 ├── ViT-Orchids-Classification-main/
     └── apex/
     └── checkpoint/
@@ -286,6 +287,9 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
     └── train.py/
     └── submit.py/
 ```
+#### Step 2. Execute `submit.py`
+  
+#### Step 3. Execute `convert.py`
   
   
 
