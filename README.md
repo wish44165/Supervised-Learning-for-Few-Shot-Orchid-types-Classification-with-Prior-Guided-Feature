@@ -387,7 +387,7 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
   
 - Step 3. Execute `convert.py` by using the following command.
   
-  After execute `submit.py`, we can get two files named `submit_voteEnsemble.csv` and `submit_meanEnsemble.csv`, respectively.
+  After executing `submit.py`, we can get two files named `submit_voteEnsemble.csv` and `submit_meanEnsemble.csv`, respectively.
   
   Now, we are ready to execute `convert.py`.
   
