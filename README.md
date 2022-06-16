@@ -385,11 +385,11 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
   
   
   
-- Step 3. Execute `convert.py` by using the following command.
+- Step 3. Execute [convert.py](https://github.com/TW-yuhsi/ViT-Orchids-Classification/blob/main/convert.py) by using the following command.
   
-  After executing `submit.py`, we can get two files named `submit_voteEnsemble.csv` and `submit_meanEnsemble.csv`, respectively.
+  After executing [submit.py](https://github.com/TW-yuhsi/ViT-Orchids-Classification/blob/main/submit.py), we can get two files named `submit_voteEnsemble.csv` and `submit_meanEnsemble.csv`, respectively.
   
-  Now, we are ready to execute `convert.py`.
+  Now, we are ready to execute [convert.py](https://github.com/TW-yuhsi/ViT-Orchids-Classification/blob/main/convert.py).
   
   ```bash
   python convert.py
@@ -399,7 +399,7 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
   
 - Step 4. Submit the file named `submit_meanEnsemble_convert.csv`.
   
-  After executing `convert.py`, we can get the file named `submit_meanEnsemble_convert.csv` which has the highest Macro-F$_1$ score.
+  After executing [convert.py](https://github.com/TW-yuhsi/ViT-Orchids-Classification/blob/main/convert.py), we can get the file named `submit_meanEnsemble_convert.csv` which has the highest Macro-F$_1$ score.
   
 </details>
   
