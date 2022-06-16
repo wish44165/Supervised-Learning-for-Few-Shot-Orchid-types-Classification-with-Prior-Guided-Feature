@@ -335,7 +335,7 @@ Step 1. Setup the Folder Structure as follows
   
   
   
-- Step 4. Submit `submit_meanEnsemble_convert.csv` file
+- Step 4. Submit the file named `submit_meanEnsemble_convert.csv`.
   
   After execute `convert.py`, we can get the file named `submit_meanEnsemble_convert.csv` which has the highest Macro-F$_1$ score.
   
