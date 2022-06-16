@@ -321,6 +321,8 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
 <summary>Google Colaboratory Version</summary>
   
 - Step 1. Setup the Folder Structure as follows.
+  
+  The simplest way is to copy the whole [folder](https://drive.google.com/drive/folders/1x_rb6bu0riJuouAtK-xjFGDkCP7ZbhbL?usp=sharing).
 
   ```
   尋找花中君子 - 蘭花種類辨識及分類競賽 [TBrain]/
@@ -336,6 +338,8 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
   ```
   
 - Step 2. Execute the Notebook
+  
+  After the setup, ready to execute `Reproduce.ipynb`, no additional steps are needed.
   
 - Step 3. Submit the file named `submit_meanEnsemble_convert.csv`.
   
