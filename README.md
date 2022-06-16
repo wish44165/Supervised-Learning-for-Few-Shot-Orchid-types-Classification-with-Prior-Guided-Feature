@@ -308,15 +308,20 @@ Step 1. Setup the Folder Structure as follows
 
 - Step 2. Execute `submit.py` by using the following command.
 
-  After the setup, ready to try out, no additional steps are needed.
+  After the setup, ready to execute `submit.py`, no additional steps are needed.
 
-```bash
-python submit.py --model_type ["ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16"] --checkpoint ["output/A1.bin","output/A2.bin","output/ID_4.bin","output/ID_5.bin","output/ID12.bin","output/ID27.bin"] --img_size [480,480,480,480,480,480] --use_imagenet_mean_std [0,0,0,0,1,1]
-```
+  ```bash
+  python submit.py --model_type ["ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16"] --checkpoint ["output/A1.bin","output/A2.bin","output/ID_4.bin","output/ID_5.bin","output/ID12.bin","output/ID27.bin"] --img_size [480,480,480,480,480,480] --use_imagenet_mean_std [0,0,0,0,1,1]
+  ```
   
   
   
-- Step 3. Execute `convert.py`
+- Step 3. Execute `convert.py` by using the following command.
+  
+  After execute `submit.py`, we can get two files named `submit_voteEnsemble.csv` and `submit_meanEnsemble.csv`, respectively.
+  
+  Now, we are ready to execute `convert.py` directly.
+  
   
 </details>
   
