@@ -457,7 +457,6 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
             └── fold4/
         └── baseline data/
         └── training/
-├── figures/
 ├── Reproduce the Best Result/
     └── ViT/
         └── output/
