@@ -287,24 +287,24 @@ Step 1. Setup the Folder Structure as follows
   
 - Step 1. Setup the Folder Structure as follows.
   
-```
-├── test/
-    └── 0/    # orchid_public_set, 40285
-    └── 1/    # orchid_private_set, 41425
-├── ViT-Orchids-Classification-main/
-    └── apex/
-    └── checkpoint/
-    └── compare.py
-    └── convert.py
-    └── models/
-    └── output/
-        └── A1.bin, A2.bin, ID_4.bin, ID_5.bin, ID12.bin, ID27.bin    # ViT-B_16
-    └── utils/
-    └── requirements.txt
-    └── test.py/
-    └── train.py/
-    └── submit.py/
-```
+  ```
+  ├── test/
+      └── 0/    # orchid_public_set, 40285
+      └── 1/    # orchid_private_set, 41425
+  ├── ViT-Orchids-Classification-main/
+      └── apex/
+      └── checkpoint/
+      └── compare.py
+      └── convert.py
+      └── models/
+      └── output/
+          └── A1.bin, A2.bin, ID_4.bin, ID_5.bin, ID12.bin, ID27.bin    # ViT-B_16
+      └── utils/
+      └── requirements.txt
+      └── test.py/
+      └── train.py/
+      └── submit.py/
+  ```
 
 - Step 2. Execute `submit.py` by using the following command.
 
