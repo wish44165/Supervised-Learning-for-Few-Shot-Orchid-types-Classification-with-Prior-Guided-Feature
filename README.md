@@ -335,7 +335,7 @@ Step 1. Setup the Folder Structure as follows
   
   
   
-- Step 5. Submit `submit_meanEnsemble_convert.csv` file
+- Step 4. Submit `submit_meanEnsemble_convert.csv` file
   
   After execute `convert.py`, we can get the file named `submit_meanEnsemble_convert.csv` which has the highest Macro-F$_1$ score.
   
@@ -345,7 +345,7 @@ Step 1. Setup the Folder Structure as follows
   
   
 
-## 4. Related URLs
+## 5. Related URLs
 ### [Competition Link](https://tbrain.trendmicro.com.tw/Competitions/Details/20)
 ### [Google Drive](https://drive.google.com/drive/folders/1x_rb6bu0riJuouAtK-xjFGDkCP7ZbhbL?usp=sharing)
 <details>
