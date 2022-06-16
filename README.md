@@ -2,7 +2,7 @@
 
 ## Supervised Learning for Few-Shot Orchid types Classification with Prior Guided Feature - TEAM_142
 
-### Introduction
+## 0. Overview
 
 Image classification has been widely used in engineering, agriculture, and medical applications. Nowadays, with the rapid development of deep neural network and the computing power of graphic cards, the performance of image classification has been greatly improved. In particular, pattern recognition plays an important role in image classification. Even though this field looks very mature, there are still some intractable problems, such as lack of labeled data and lack of understanding of species. Here, we followed a pipeline that can find the most suitable process for each task systematically. Using this method, our final scores are 0.911492 and 0.809624582 in public and private datasets, respectively. In addition, our overall ranking is 15th out of 743 teams.
 
