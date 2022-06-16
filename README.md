@@ -328,8 +328,8 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
   尋找花中君子 - 蘭花種類辨識及分類競賽 [TBrain]/
   ├── datasets/
       └── test/
-          └── orchid_private_set/    # 41425
-          └── orchid_public_set/    # 40285
+          └── 0/    # orchid_public_set, 40285
+          └── 1/    # orchid_private_set, 41425
   ├── Reproduce the Best Result/
       └── ViT/
           └── output/
