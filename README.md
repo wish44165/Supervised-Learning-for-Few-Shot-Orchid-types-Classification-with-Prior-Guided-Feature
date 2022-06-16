@@ -283,7 +283,7 @@ Step 1. Setup the Folder Structure as follows
   
 <summary>Local Machine Version</summary>
   
-- Step 0. Follow [1. Environment Setup] step by step.
+- Step 0. Follow **1. Environment Setup** step by step.
   
 - Step 1. Setup the Folder Structure as follows.
   
@@ -297,6 +297,8 @@ Step 1. Setup the Folder Structure as follows
     └── compare.py
     └── convert.py
     └── models/
+    └── output/
+        └── A1.bin, A2.bin, ID_4.bin, ID_5.bin, ID12.bin, ID27.bin    # ViT-B_16
     └── utils/
     └── requirements.txt
     └── test.py/
@@ -305,7 +307,7 @@ Step 1. Setup the Folder Structure as follows
 ```
 
 - Step 2. Execute `submit.py` by using the following command.
-
+After the setup, ready to try out, no additional steps are needed.
 ```bash
 python submit.py --model_type ["ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16"] --checkpoint ["output/A1.bin","output/A2.bin","output/ID_4.bin","output/ID_5.bin","output/ID12.bin","output/ID27.bin"] --img_size [480,480,480,480,480,480] --use_imagenet_mean_std [0,0,0,0,1,1]
 ```
