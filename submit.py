@@ -120,8 +120,8 @@ def test(args, model):
                         tta.HorizontalFlip(),
                         #tta.VerticalFlip(),
                         #tta.Rotate90(angles=[0, 90, 180, 270]),
-                        #tta.Add(values=[-0.05, 0.05]),
-                        #tta.Multiply(factors=[0.95, 1, 1.05]),
+                        tta.Add(values=[-0.05, 0.05]),
+                        tta.Multiply(factors=[0.95, 1, 1.05]),
                         tta.FiveCrops(args.img_size, args.img_size)
                     ]
                 )
@@ -202,7 +202,7 @@ def main():
                         help="Where to search for trained ViT models.")
     parser.add_argument("--img_size", default=224, type=str,
                         help="Resolution size")
-    parser.add_argument("--test_dir", default='../data/fold1/test',    ################ 3. change to test path ################
+    parser.add_argument("--test_dir", default='../test',    ################ 3. change to test path ################
                         help="Where to do the inference.")
     parser.add_argument("--dataset", default='',
                         help="What kind of dataset to do the inference.")
@@ -211,7 +211,7 @@ def main():
                         help="Number of classes")
 
     # mean and std
-    parser.add_argument('--use_imagenet_mean_std', action=argparse.BooleanOptionalAction,
+    parser.add_argument('--use_imagenet_mean_std', type=str,
                         help='Whether to use mean and std of imagenet.')
 
     # tta
@@ -284,8 +284,16 @@ def main():
     #print(imgSizes)
     #>[384, 384]
 
+    imgNet = args.use_imagenet_mean_std
+    imgNet = imgNet[1:-1]
+    imgNet = imgNet.split(',')
+    imgNet = [int(a) for a in imgNet]
+    #print(imgNet)
+    #>[0, 1]
 
-    imgNum = 438    ################ 4. change to test number ################
+
+    imgNum = 81710    ################ 4. change to test number ################
+    #imgNum = 438
     #print(imgNum)]
 
     predictList = [[] for i in range(imgNum)]
@@ -295,6 +303,7 @@ def main():
         args.model_type = modelTypes[i]
         args.checkpoint = cpFiles[i]
         args.img_size = imgSizes[i]
+        args.use_imagenet_mean_std = imgNet[i]
 
         args, model = setup(args)
 
@@ -330,7 +339,7 @@ def main():
             writer.writerow(l)
 
     ################ 5-1. comment while submit ################
-    print(classification_report(groundTruth, ensemblePred, target_names=[str(i) for i in range(args.num_classes)], digits=6))
+    #print(classification_report(groundTruth, ensemblePred, target_names=[str(i) for i in range(args.num_classes)], digits=6))
 
 
     ################
@@ -347,7 +356,7 @@ def main():
             writer.writerow(l)
 
     ################ 5-2. comment while submit ################
-    print(classification_report(groundTruth, ensembleLogits, target_names=[str(i) for i in range(args.num_classes)], digits=6))
+    #print(classification_report(groundTruth, ensembleLogits, target_names=[str(i) for i in range(args.num_classes)], digits=6))
 
 
 
