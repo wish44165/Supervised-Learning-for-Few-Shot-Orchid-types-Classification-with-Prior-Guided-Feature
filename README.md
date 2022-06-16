@@ -428,17 +428,23 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
     └── ViT_Linformer_params1.ipynb
     └── ViT_Linformer_params2.ipynb
 ├── datasets/
-    └── baseline data/
-    └── 4-Fold/
-        └── fold1/
-        └── fold2/
-        └── fold3/
-        └── fold4/
-    └── orchid_private_set/
-    └── orchid_public_set/
-    └── training/
+    └── test/
+        └── orchid_private_set/
+        └── orchid_public_set/
+    └── train/
+        └── 4-Fold/
+            └── fold1/
+            └── fold2/
+            └── fold3/
+            └── fold4/
+        └── baseline data/
+        └── training/
 ├── figures/
 ├── Reproduce the Best Result/
+    └── test/
+        └── 0/
+        └── 1/
+    └── ViT/
 ├── src/
     └── getInfo/
         └── readLabel.py    # read label.csv file
