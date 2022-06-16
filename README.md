@@ -399,7 +399,7 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
   
 - Step 4. Submit the file named `submit_meanEnsemble_convert.csv`.
   
-  After execute `convert.py`, we can get the file named `submit_meanEnsemble_convert.csv` which has the highest Macro-F$_1$ score.
+  After executing `convert.py`, we can get the file named `submit_meanEnsemble_convert.csv` which has the highest Macro-F$_1$ score.
   
 </details>
   
