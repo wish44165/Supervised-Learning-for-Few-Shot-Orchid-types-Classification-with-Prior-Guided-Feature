@@ -272,7 +272,9 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
   
 <summary>Google Colaboratory Version</summary>
   
-Step 1.
+Step 1. Setup the Folder Structure as follows
+  
+
   
 </details>
   
@@ -281,9 +283,9 @@ Step 1.
   
 <summary>Local Machine Version</summary>
   
-Step 1. Environment Setup
+Step 0. Follow [1. Environment Setup] step by step above.
   
-Step 1. Setup the Folder Structure as follows
+Step 1. Setup the Folder Structure as follows.
   
 ```
 ├── test/
@@ -303,6 +305,8 @@ Step 1. Setup the Folder Structure as follows
 ```
   
 Step 2. Execute `submit.py`
+  
+  
   
 Step 3. Execute `convert.py`
   
