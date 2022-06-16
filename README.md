@@ -271,7 +271,21 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
 
 ### Local Machine Version
 
-  
+```
+├── data/
+    └── test/
+├── ViT-Orchids-Classification-main/
+    └── apex/
+    └── checkpoint/
+    └── compare.py
+    └── convert.py
+    └── models/
+    └── utils/
+    └── requirements.txt
+    └── test.py/
+    └── train.py/
+    └── submit.py/
+```
   
   
 
