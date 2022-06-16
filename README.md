@@ -320,8 +320,20 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
   
 <summary>Google Colaboratory Version</summary>
   
-- Step 1. Setup the Folder Structure as follows
-  
+- Step 1. Setup the Folder Structure as follows.
+
+  ```
+  尋找花中君子 - 蘭花種類辨識及分類競賽 [TBrain]/
+  ├── datasets/
+      └── test/
+          └── orchid_private_set/    # 41425
+          └── orchid_public_set/    # 40285
+  ├── Reproduce the Best Result/
+      └── ViT/
+          └── output/
+              └── A1.bin, A2.bin, ID_4.bin, ID_5.bin, ID12.bin, ID27.bin    # ViT-B_16
+          └── Reproduce.ipynb
+  ```
   
 - Step 2. Execute the Notebook
   
@@ -442,6 +454,7 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
 ├── figures/
 ├── Reproduce the Best Result/
     └── ViT/
+        └── output/
         └── Reproduce.ipynb
 ├── src/
     └── getInfo/
