@@ -267,10 +267,24 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
   
   
 ## Reproduce the Best Result (public: 0.911492, private: 0.809624582)
-### Google Colaboratory Version
-
-### Local Machine Version
-#### Step 1. Follow the Folder Structure below
+  
+<details>
+  
+<summary>Google Colaboratory Version</summary>
+  
+Step 1.
+  
+</details>
+  
+  
+<details>
+  
+<summary>Local Machine Version</summary>
+  
+Step 1. Environment Setup
+  
+Step 1. Setup the Folder Structure as follows
+  
 ```
 ├── test/
     └── 0/    # orchid_public_set, 40285
@@ -287,9 +301,14 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
     └── train.py/
     └── submit.py/
 ```
-#### Step 2. Execute `submit.py`
   
-#### Step 3. Execute `convert.py`
+Step 2. Execute `submit.py`
+  
+Step 3. Execute `convert.py`
+  
+</details>
+  
+
   
   
 
