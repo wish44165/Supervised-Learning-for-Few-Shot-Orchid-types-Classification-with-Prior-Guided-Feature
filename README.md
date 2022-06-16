@@ -1,6 +1,6 @@
-# 尋找花中君子 - 蘭花種類辨識及分類競賽
+# 尋找花中君子 - 蘭花種類辨識及分類競賽 (TEAM_142)
 
-## Supervised Learning for Few-Shot Orchid types Classification with Prior Guided Feature - TEAM_142
+## Supervised Learning for Few-Shot Orchid types Classification with Prior Guided Feature
 
 $\large{\textbf{Overview}}$
 
