@@ -322,7 +322,7 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
   
 - Step 1. Setup the Folder Structure as follows.
   
-  The simplest way is to copy the whole [folder](https://drive.google.com/drive/folders/1x_rb6bu0riJuouAtK-xjFGDkCP7ZbhbL?usp=sharing).
+  The easiest way is to copy the entire [folder](https://drive.google.com/drive/folders/1x_rb6bu0riJuouAtK-xjFGDkCP7ZbhbL?usp=sharing), but be aware that there is a lot of weights in this folder.
 
   ```
   尋找花中君子 - 蘭花種類辨識及分類競賽 [TBrain]/
