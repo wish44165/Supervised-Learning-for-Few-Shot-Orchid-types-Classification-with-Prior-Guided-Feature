@@ -337,11 +337,13 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
           └── Reproduce.ipynb
   ```
   
-- Step 2. Execute the Notebook
+- Step 2. Execute the Notebook named `Reproduce.ipynb`.
   
   After the setup, ready to execute `Reproduce.ipynb`, no additional steps are needed.
   
 - Step 3. Submit the file named `submit_meanEnsemble_convert.csv`.
+  
+  After finishing `Reproduce.ipynb`, we can get the file named `submit_meanEnsemble_convert.csv` which has the highest Macro-F$_1$ score.
   
 </details>
   
