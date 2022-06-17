@@ -1,0 +1,114 @@
+(ViT_j) yuhsi@yuhsi-System-Product-Name:~/NYCU/Orchidaceae/ViT-pytorch$ python submit.py --model_type ["ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16"] --checkpoint ["output/A1.bin","output/A2.bin","output/ID_4.bin","output/ID_5.bin","output/ID12.bin","output/ID27.bin"] --img_size [480,480,480,480,480,480] --use_imagenet_mean_std [0,0,0,0,1,1]
+/home/yuhsi/yes/envs/ViT_j/lib/python3.9/site-packages/apex-0.1-py3.9.egg/apex/pyprof/__init__.py:5: FutureWarning: pyprof will be removed by the end of June, 2022
+06/06/2022 10:52:16 - WARNING - __main__ - Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, 16-bits training: False
+06/06/2022 10:52:19 - INFO - __main__ - classifier: token
+hidden_size: 768
+patches:
+  size: !!python/tuple
+  - 16
+  - 16
+representation_size: null
+transformer:
+  attention_dropout_rate: 0.0
+  dropout_rate: 0.1
+  mlp_dim: 3072
+  num_heads: 12
+  num_layers: 12
+
+06/06/2022 10:52:19 - INFO - __main__ - Training parameters Namespace(model_type='ViT-B_16', checkpoint='output/A1.bin', img_size=480, test_dir='../test', dataset='', num_classes=219, use_imagenet_mean_std=0, use_test_aug=None, local_rank=-1, seed=42, fp16=False, fp16_opt_level='O2', n_gpu=1, device=device(type='cuda'))
+06/06/2022 10:52:19 - INFO - __main__ - Total Parameter: 	86.5M
+86.507739
+Testing: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 81710/81710 [58:32<00:00, 23.26it/s]
+06/06/2022 11:50:54 - INFO - __main__ - classifier: token
+hidden_size: 768
+patches:
+  size: !!python/tuple
+  - 16
+  - 16
+representation_size: null
+transformer:
+  attention_dropout_rate: 0.0
+  dropout_rate: 0.1
+  mlp_dim: 3072
+  num_heads: 12
+  num_layers: 12
+
+06/06/2022 11:50:54 - INFO - __main__ - Training parameters Namespace(model_type='ViT-B_16', checkpoint='output/A2.bin', img_size=480, test_dir='../test', dataset='', num_classes=219, use_imagenet_mean_std=0, use_test_aug=None, local_rank=-1, seed=42, fp16=False, fp16_opt_level='O2', n_gpu=1, device=device(type='cuda'))
+06/06/2022 11:50:54 - INFO - __main__ - Total Parameter: 	86.5M
+86.507739
+Testing: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 81710/81710 [59:29<00:00, 22.89it/s]
+06/06/2022 12:50:25 - INFO - __main__ - classifier: token
+hidden_size: 768
+patches:
+  size: !!python/tuple
+  - 16
+  - 16
+representation_size: null
+transformer:
+  attention_dropout_rate: 0.0
+  dropout_rate: 0.1
+  mlp_dim: 3072
+  num_heads: 12
+  num_layers: 12
+
+06/06/2022 12:50:25 - INFO - __main__ - Training parameters Namespace(model_type='ViT-B_16', checkpoint='output/ID_4.bin', img_size=480, test_dir='../test', dataset='', num_classes=219, use_imagenet_mean_std=0, use_test_aug=None, local_rank=-1, seed=42, fp16=False, fp16_opt_level='O2', n_gpu=1, device=device(type='cuda'))
+06/06/2022 12:50:25 - INFO - __main__ - Total Parameter: 	86.5M
+86.507739
+Testing: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 81710/81710 [59:02<00:00, 23.06it/s]
+06/06/2022 13:49:30 - INFO - __main__ - classifier: token
+hidden_size: 768
+patches:
+  size: !!python/tuple
+  - 16
+  - 16
+representation_size: null
+transformer:
+  attention_dropout_rate: 0.0
+  dropout_rate: 0.1
+  mlp_dim: 3072
+  num_heads: 12
+  num_layers: 12
+
+06/06/2022 13:49:30 - INFO - __main__ - Training parameters Namespace(model_type='ViT-B_16', checkpoint='output/ID_5.bin', img_size=480, test_dir='../test', dataset='', num_classes=219, use_imagenet_mean_std=0, use_test_aug=None, local_rank=-1, seed=42, fp16=False, fp16_opt_level='O2', n_gpu=1, device=device(type='cuda'))
+06/06/2022 13:49:30 - INFO - __main__ - Total Parameter: 	86.5M
+86.507739
+Testing: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 81710/81710 [59:47<00:00, 22.78it/s]
+06/06/2022 14:49:19 - INFO - __main__ - classifier: token
+hidden_size: 768
+patches:
+  size: !!python/tuple
+  - 16
+  - 16
+representation_size: null
+transformer:
+  attention_dropout_rate: 0.0
+  dropout_rate: 0.1
+  mlp_dim: 3072
+  num_heads: 12
+  num_layers: 12
+
+06/06/2022 14:49:19 - INFO - __main__ - Training parameters Namespace(model_type='ViT-B_16', checkpoint='output/ID12.bin', img_size=480, test_dir='../test', dataset='', num_classes=219, use_imagenet_mean_std=1, use_test_aug=None, local_rank=-1, seed=42, fp16=False, fp16_opt_level='O2', n_gpu=1, device=device(type='cuda'))
+06/06/2022 14:49:19 - INFO - __main__ - Total Parameter: 	86.5M
+86.507739
+Testing: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 81710/81710 [1:00:37<00:00, 22.46it/s]
+06/06/2022 15:49:59 - INFO - __main__ - classifier: token
+hidden_size: 768
+patches:
+  size: !!python/tuple
+  - 16
+  - 16
+representation_size: null
+transformer:
+  attention_dropout_rate: 0.0
+  dropout_rate: 0.1
+  mlp_dim: 3072
+  num_heads: 12
+  num_layers: 12
+
+06/06/2022 15:49:59 - INFO - __main__ - Training parameters Namespace(model_type='ViT-B_16', checkpoint='output/ID27.bin', img_size=480, test_dir='../test', dataset='', num_classes=219, use_imagenet_mean_std=1, use_test_aug=None, local_rank=-1, seed=42, fp16=False, fp16_opt_level='O2', n_gpu=1, device=device(type='cuda'))
+06/06/2022 15:49:59 - INFO - __main__ - Total Parameter: 	86.5M
+86.507739
+Testing: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 81710/81710 [57:52<00:00, 23.53it/s]
+[102 140 121 ...  42 106  85]
+[121 141 162 ... 140 106  85]
+(ViT_j) yuhsi@yuhsi-System-Product-Name:~/NYCU/Orchidaceae/ViT-pytorch$
