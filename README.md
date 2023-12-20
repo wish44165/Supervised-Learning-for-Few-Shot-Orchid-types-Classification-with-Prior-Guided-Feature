@@ -26,7 +26,7 @@ Image classification has been widely used in engineering, agriculture, and medic
 <summary>Conda environment</summary>
   
 ```bash
-conda create -n ViT python==3.9 -y
+conda create -n ViT python=3.9 -y
 conda activate ViT
 ```
 
